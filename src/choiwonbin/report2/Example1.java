@@ -1,4 +1,4 @@
-package choiwonbin.task2;
+package choiwonbin.report2;
 
 public class Example1 {
     private static final String number = "8";

@@ -1,4 +1,4 @@
-package choiwonbin.task1;
+package choiwonbin.report1;
 
 public class Example1 {
     private int num;
