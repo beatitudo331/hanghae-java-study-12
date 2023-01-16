@@ -1,4 +1,4 @@
-package report5;
+package choiwonbin.report5;
 // 6_2 번 문제
 public class Report5_2 {
     public static void main(String[] args) {
