@@ -1,4 +1,4 @@
-package choiwonbin.oop.step4;
+package choiwonbin.solid.step4;
 
 public class Calculator {
     public int calculate(String operator, int firstNumber, int secondNumber) {

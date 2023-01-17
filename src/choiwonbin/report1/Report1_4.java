@@ -1,5 +1,5 @@
 package choiwonbin.report1;
-// 2_8 번 문제   <- 이렇게 문제 번호 작성 필수
+// 2-8 번 문제   <- 이렇게 문제 번호 작성 필수
 public class Report1_4 {
     public static void main(String[] args) {
         // 정답 작성
