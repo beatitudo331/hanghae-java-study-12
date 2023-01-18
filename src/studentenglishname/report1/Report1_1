@@ -1,3 +1,19 @@
 2-4번 문제
 
 정답 :
+//2-4. 다음 중 변수를 잘못 초기화 한 것은?
+
+//byte는 0~127까지
+byte b = 256;
+
+//변수 선언은 char c; 이렇게 해야함.
+char c = '';
+
+//char 타입은 하나의 문자만 가능. char answer = 'n';
+char answer = 'no';
+
+//뒤에 f; 붙여야함. float f = 3.14f;
+float f = 3.14
+
+//정상
+double d = 1.4e3f;
