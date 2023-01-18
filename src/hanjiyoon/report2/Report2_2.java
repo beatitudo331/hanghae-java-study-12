@@ -14,7 +14,7 @@ public class Report2_2 {
         System.out.println(x += 2);
         //result: 5, why: x = x+2, x는 위의 x++에 의해 3이 되었으므로 3+2= 5
         System.out.println(!('A' <= c && c <= 'Z'));
-        //result: false, why: false&&true => false
+        //result: false, why: !(true&&true) => false
         System.out.println('C' - c);
         //result: 2, why: C의 아스키코드는 67, char c = 'A'이므로 65, 67-65 = 2
         System.out.println('5' - '0');
