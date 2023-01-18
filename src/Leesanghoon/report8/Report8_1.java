@@ -1,4 +1,4 @@
-package choiwonbin.report8;
+package Leesanghoon.report8;
 // 7-1번 문제
 public class Report8_1 {
     public static void main(String args[]) {
