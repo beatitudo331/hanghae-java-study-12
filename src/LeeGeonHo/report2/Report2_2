@@ -1,0 +1,23 @@
+
+//3-2. 다음 연산의 결과와 그 이유를 적으세요.
+class Exercise3_2{
+   public static void main(String[] args){
+      int x = 2;
+      int y = 5;
+      char c = 'A'; // 'A'의 문자코드는 65
+
+      System.out.println(y >= 5 || x < 0 && x > 2); // true y=5
+      System.out.println(y += 10 - x++);            // 5+10 -2  = 13
+      System.out.println(x += 2);                   // 2+2 = 4
+      System.out.println(!('A' <= c && c <= 'Z'));  // false 두가지다 만족해야하나 하나만 만족
+      System.out.println('C' - c);                  // 'C'= 67  -> 67-65 =2
+      System.out.println('5' - '0');                // 숫자5
+      System.out.println(c + 1);                    // 'A'=65 +1 =66
+      System.out.println(++c);                      // 66 = B 출력
+      System.out.println(c++);                      // 65= A 출력
+      System.out.println(c);                        // 'A'
+   }
+}
+
+
+
