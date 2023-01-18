@@ -1,0 +1,39 @@
+//3-2. 다음 연산의 결과와 그 이유를 적으세요.
+class Exercise3_2{
+   public static void main(String[] args){
+      int x = 2;
+      int y = 5;
+      char c = 'A'; // 'A'의 문자코드는 65
+
+      System.out.println(y >= 5 || x < 0 && x > 2);
+      System.out.println(y += 10 - x++);
+      System.out.println(x += 2);
+      System.out.println(!('A' <= c && c <= 'Z'));
+      System.out.println('C' - c);
+      System.out.println('5' - '0');
+      System.out.println(c + 1);
+      System.out.println(++c);
+      System.out.println(c++);
+      System.out.println(c);
+   }
+}
+
+답: true true|| false && false
+        true|| false
+        둘중 하나라도 참이면 참으로 결과가 나온다.
+   13   5 += 10-2++
+        5 += 8++
+        13 (후위 증감 연산자 이기 때문에 값이 참조 된후에 증가 하기 때문이다.
+   4 2+2를 한다음 x에 대입한다.
+   false !(65 <= 65 && 65 <= 90)
+           !true
+           false
+   2    67 - 65 =2
+   5  문자형으로 해도 5-0 =5
+   66 65 +1 =66
+   B 참조 전에 증가 해서 66 이를 문자형으로 변환하면 B
+   A 참조 후에 증가 하기 때문에 65 이는 A로 출력된다.
+   A 변수 c 그대로 출력 된다.
+
+
+
