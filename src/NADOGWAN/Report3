@@ -1,0 +1,86 @@
+4-2 문제
+정답 : 73
+        for(int i=1; i<20; i++){
+            if(!(i%2==0 || i%3==0)){
+                sum += i;
+                System.out.println(sum);
+            }
+
+4-3 문제
+정답 : 55
+        for(int i=1; i<=10; i++){
+            totalSum += i;
+            System.out.println(totalSum);
+
+4-4 문제
+정답 : 200
+        for(int i=1; sum <= 100; i++,s++){
+            num = (i%2==0) ? (i * -1) : i;
+            sum += num;
+        }
+
+4-5 문제
+정답 :
+        int i=0;
+        while(i<= 10){
+            int j=0;
+            while(j<=i){
+                System.out.print("*");
+                j++;
+            }
+            i++;
+            System.out.println();
+        }
+
+4-6 문제
+정답 :
+        for(int i=1; i<=6 ; i++){
+            for(int j=1; j<=6; j++){
+                if(i+j==6){
+                    System.out.println(i +"+"+j);
+                }
+            }
+        }
+
+4-7 문제
+정답 :
+        for (int i = 0; i < str.length(); i++) {
+            sum += Integer.parseInt(str.charAt(i)+"");
+        }
+
+4-8 문제
+        int value = ((int)(Math.random()+1)*6);
+
+4-9 문제
+        for(int i=0; i<5; i++){
+            sum += (num % 10);
+            num = num/10;
+        }
+
+4-10
+        int answer = (int)((Math.random()+1)*100);
+        int input = 0; //사용자입력을 저장할 공간
+        int count = 0; //시도횟수를 세기위한 변수
+
+        // 화면으로 부터 사용자입력을 받기 위해서 Scanner클래스 사용
+        java.util.Scanner s = new java.util.Scanner(System.in);
+        System.out.println("총 시도횟수는 6번 입니다.");
+        do {
+            count++;
+            if(count > 6){
+                break;
+            }
+            System.out.print("1과 100사이의 값을 입력하세요 : ");
+
+            input = s.nextInt(); //입력받은 값을 변수 input에 저장한다.
+
+            if(answer==input){
+                System.out.println("맞혔습니다.");
+                break;
+            }else{
+                System.out.println("틀렸습니다. 현재 시도횟수는 "+count+"번 입니다.");
+            }
+        } while(true);
+
+
+
