@@ -1,0 +1,5 @@
+3-1번문제
+
+정답 :1. b=(byte)i
+     2. float f = (float)l;
+     3. i = (int)ch
