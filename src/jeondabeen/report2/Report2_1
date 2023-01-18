@@ -1,0 +1,5 @@
+3-1번 문제
+
+정답 : b = (byte)i;
+       float f = (float)l;  => 실수형이 정수형보다 더 크기 때문
+       i = (int)ch;
