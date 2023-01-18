@@ -1,0 +1,36 @@
+3-1번 문제
+
+// 주어진 값
+byte b = 10;
+char ch = 'A';
+int i = 100;
+long l = 1000L;
+
+정답 :
+float f = (float)l;
+i = (int)ch;
+
+// 값의 범위가 작은 타입에서 큰 타입으로의 형변환은 생략가능하다.
+// 자바에서 실수란 소수부나 지수부가 있는 수를 가리키며, 훨씬 더 넓은 표현 범위를 가짐 float double
+
+
+// 풀이
+주어진 값
+byte b = 10;
+char ch = 'A';
+int i = 100;
+long l = 1000L;
+
+
+
+
+// float f = (float)l;
+float는 4byte, long는 8byte
+float의 범위가 long보다 커서 생략가능하다.
+
+
+
+// i = (int)ch;
+i는 4byte, ch는 2byte
+char은 2byte, 형변환은 int 4byte
+작은타입 -> 큰타입 변환이기에 생략가능하다.
