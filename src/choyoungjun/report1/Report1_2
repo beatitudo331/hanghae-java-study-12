@@ -1,0 +1,17 @@
+2-7번 문제
+
+정답 :
+System.out.println("1" + "2");
+ => 12
+System.out.println(true+"");
+ => true
+System.out.println('A' + 'B');
+ => 131 (ASKII코드 참조)
+System.out.println('1' + 2);
+ => 51
+System.out.println('1' + '2');
+ => 99
+System.out.println('J' +"ava");
+ => Java
+System.out.println(true + null);
+ => Error
