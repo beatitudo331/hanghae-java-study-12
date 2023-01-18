@@ -1,0 +1,3 @@
+2-7번 번 문제
+
+정답 : System.out.println(true + null); // 오류
