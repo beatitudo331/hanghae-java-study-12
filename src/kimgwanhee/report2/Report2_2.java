@@ -1,7 +1,25 @@
 package kimgwanhee.report2;
-// 3-2번 문제
-// 3-2번 문제
+
 public class Report2_2 {
+    // 3-1번 문제
+    byte b = 10;
+    char ch = 'A';
+    int i = 100;
+    long l = 1000L;
+
+//    b = (byte)i;
+//    byte형(1byte)이 100(int라서 4byte)을 담을 수 없음. 따라서 캐스팅 필수.
+//    ch = (char)b;
+//    byte형(1byte)를 char형(2byte)에 담는 것이라 크기는 되지만 범위가 다르기 때문에 캐스팅 필수.
+//    short s = (short)ch;
+//    short크기는 되지만 메모리 참조하는 범위가 다름. 따라서 생략하면 안됨.
+//    float f = (float)l;
+//    생략가능
+//    i = (int)ch;
+//    생략가능
+//    4,5
+
+    // 3-2번 문제
     public static void main(String[] args) {
         int x = 2;
         int y = 5;
