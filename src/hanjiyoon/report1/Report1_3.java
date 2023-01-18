@@ -18,6 +18,3 @@ public class Report1_3 {
 }
 //예상 결과 : x=2, y=3, z=1
 
-    }
-}
-
