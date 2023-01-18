@@ -1,7 +1,6 @@
 2-7번 번 문제
 
 정답 :
-
 System.out.println("1" + "2");      출력: "12"
 System.out.println(true+"");        출력: ture
 System.out.println('A' + 'B');      출력: AB
