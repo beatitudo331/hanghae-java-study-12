@@ -5,4 +5,4 @@ char answer = 'no';
 float f = 3.14
 double d = 1.4e3f;
 
-답 : 모두 잘못 초기화
+답 : 1,2,3,4 틀림
