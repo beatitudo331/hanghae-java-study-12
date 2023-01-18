@@ -24,7 +24,7 @@ public class Report2_2 {
                 System.out.println(c + 1);
                 //7. c 는 아스키코드 65 이므로 + 1 을한 66 출력
                 System.out.println(++c);
-                //8. ++c는 아스키코드 65 + 1 이므로 66에 해당하는 'B' 출력
+                //8. ++c는 아스키코드 65 + 1 이므로 66에  해당하는 'B' 출력
                 System.out.println(c++);
                 //9. c++은 연산 이후에 더해주는것이므로 그대로 'B' 출력
                 System.out.println(c);
@@ -45,7 +45,7 @@ public class Report2_2 {
             public static void main(String[] args){
                 int numOfApples = 123; // 사과의 개수
                 int sizeOfBucket = 10; // 바구니의 크기(바구니에 담을 수 있는 사과의 개수)
-                int numOfBucket = (int)Math.ceil((double) numOfApples/sizeOfBucket); // 모든 사과를 담는데 필요한 바구니의 수
+                int numOfBucket = (int)Math.ceil((float) numOfApples/sizeOfBucket); // 모든 사과를 담는데 필요한 바구니의 수
 
                 System.out.println("필요한 바구니의 수 :"+numOfBucket);
             }
@@ -68,8 +68,10 @@ public class Report2_2 {
                 int fahrenheit = 100;
                 float celcius = (int)((5/9f*(fahrenheit-32)*100)+0.5)/100f;
 
+
                 System.out.println("Fahrenheit:"+fahrenheit);
                 System.out.println("Celcius:"+celcius);
+
             }
         }
 
