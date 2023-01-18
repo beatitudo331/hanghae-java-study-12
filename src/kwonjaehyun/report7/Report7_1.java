@@ -1,4 +1,4 @@
-package choiwonbin.report7;
+package kwonjaehyun.report7;
 // 6-17번 문제
 public class Report7_1 {
     public static void main(String[] args) {

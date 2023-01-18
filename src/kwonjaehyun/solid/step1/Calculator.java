@@ -1,4 +1,4 @@
-package choiwonbin.solid.step3;
+package kwonjaehyun.solid.step1;
 
 public class Calculator {
     public int calculate(String operator, int firstNumber, int secondNumber) {
