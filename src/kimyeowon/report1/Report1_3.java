@@ -13,6 +13,7 @@ public class Report1_3 {
         System.out.println("x = "+x);
         System.out.println("y = "+y);
         System.out.println("z = "+z);
+
     }
 }
 
