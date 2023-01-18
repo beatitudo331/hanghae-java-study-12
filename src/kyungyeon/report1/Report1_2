@@ -1,0 +1,18 @@
+2-7번 번 문제
+
+System.out.println("1" + "2");
+System.out.println(true+"");
+System.out.println('A' + 'B');
+System.out.println('1' + 2);
+System.out.println('1' + '2');
+System.out.println('J' +"ava");
+System.out.println(true + null);
+
+정답 :
+1. 12       // "12"
+2. true     // "true"
+3. 131      // 아스키코드 'A' = 65, 'B' = 66
+4. 51       // 아스키코드 '1' = 49
+5. 99       // 아스키코드 '2' = 50
+6. Java     // 자동 형변환의 형태 Char -> String
+7. error    // boolean 형은 연산 불가. + null은 그냥 print 불가.
