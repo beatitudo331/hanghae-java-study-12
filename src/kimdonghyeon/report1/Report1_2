@@ -1,12 +1,12 @@
 2-7번 번 문제
 //2-7. 다음 문장들의 출력 결과를 적으세요. 오류가 있는 문장의 경우, '오류' 라고 적으세요.
-System.out.println("1" + "2");
-System.out.println(true+"");
-System.out.println('A' + 'B');
-System.out.println('1' + 2);
-System.out.println('1' + '2');
-System.out.println('J' +"ava");
-System.out.println(true + null);
+System.out.println("1" + "2"); //문자열이므로 12
+System.out.println(true+""); //궁금해서 아무거나 입력해보고도 넣어봤었는데 그냥true가 문자열로 나온다
+System.out.println('A' + 'B'); //문자끼리는 그냥 숫자로 계산된다
+System.out.println('1' + 2); //이것도 1의 유니코드를가져와 +2해서 51이됨
+System.out.println('1' + '2'); //49+50 = 99
+System.out.println('J' +"ava"); //문자열이랑 더하면 문자가 그냥 합쳐진다 Java
+System.out.println(true + null); // 오류
 
 정답 :
 12
