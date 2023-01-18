@@ -1,0 +1,56 @@
+3-1 문제
+정답 :
+i= (int) ch;
+
+
+3-2 문제
+
+    y >= 5 || x < 0 && x > 2  // true
+        => y는 5보다 작거나 같거나 x는 0보다 작고, x는 2보다 크다.
+           x < 0 에 해당되지 않지만, y >= 5에 이미 해당하므로 true
+
+    y += 10 - x++ // 13
+        => (y+10) - (x) = 13
+
+    x += 2 // 4
+        => x + 2 = 4
+
+    !('A' <= c && c <= 'Z') // false
+        => 'A' >= c && c >= 'Z' 로 변환. c >= 'Z'에 해당하지 않아 false
+
+    'C' - c // -2
+        => 67 - 65 = 2
+
+    '5' - '0' // 5
+        => '0'은 48이다.
+
+    c + 1 // 66
+
+    ++c // 'B' 먼저 +1
+
+    c++ // 'B' 후에 +1
+
+    c // 'C' c++로 인해 변환됨
+
+
+3-3 문제
+정답 : (int)(Math.floor(num/100)*100)
+
+
+3-4 문제
+정답 : (int)Math.ceil((double)123/10)
+
+3-5 문제
+정답 :
+        String result = num > 0 ?
+                "양수" : num < 0 ?
+                "음수" : "0";
+        System.out.println(result);
+
+3-6 문제
+정답 :
+        int fahrenheit = 100;
+        float celcius = (float)5/9*(fahrenheit-32);
+        System.out.println("Fahrenheit:"+fahrenheit);
+        System.out.println(String.format("%.2f", celcius));
+
