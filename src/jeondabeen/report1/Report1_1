@@ -1,0 +1,6 @@
+2-4번 문제
+
+정답 :   byte b = 256; => overflow 발생
+        char c = ''; => char 타입은 빈 문자 불가능
+        char answer = 'no'; => char 타입은 문자 하나만 가능
+        float f = 3.14 => float 타입이기 때문에 리터럴에 접미사 f 붙여야 하고, 끝에 세미콜론 붙여야 함
