@@ -1,0 +1,10 @@
+2-7번 문제
+
+정답:
+System.out.println("1" + "2");
+System.out.println(true+"");
+System.out.println('A' + 'B');
+System.out.println('1' + 2);
+System.out.println('1' + '2');
+System.out.println('J' +"ava");
+System.out.println(true + null); 오류
