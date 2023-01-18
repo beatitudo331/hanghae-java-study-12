@@ -1,0 +1,8 @@
+2-4번 문제
+
+정답 :
+byte b = 256; //byte는 128까지만
+char c = ''; //char는 아무것도 없이 선언불가. 공백 넣으면 가능
+char answer = 'no'; //char는 딱 한 문자만 선언가능
+float f = 3.14 // float타입 필수인 f 누락 및 세미콜론 누락
+
