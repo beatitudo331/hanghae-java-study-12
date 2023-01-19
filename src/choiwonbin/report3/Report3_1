@@ -1,6 +1,7 @@
 // 4-1번 문제
 
 정답 :
+
 1. int x= 11;
         if(x > 10 && x < 20){
             System.out.println("큽니다");
