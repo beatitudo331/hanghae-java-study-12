@@ -1,0 +1,48 @@
+6_2 문제
+정답 :
+class Student{
+    String name = ""; //학생 이름
+    int ban = 0; // 반
+    int no = 0; //번호
+    int kor = 0; //국어 점수
+    int eng = 0; // 영어 점수
+    int math = 0; // 수학 점수
+    Student(){
+
+    }
+
+    Student(String name, int ban, int no, int kor, int eng, int math){
+        this.name = name;
+        this.ban = ban;
+        this.no = no;
+        this.kor = kor;
+        this.eng = eng;
+        this.math = math;
+    }
+
+    String info(){
+        return "예상결과 : " +name+", "+ban+", "+no+", "+kor+", "+eng+", "+math;
+    }
+}
+
+6-3 문제
+정답 :
+    int getTotal(){
+        return kor+eng+math;
+    }
+
+    float getAverage(){
+        return Math.round(getTotal()/3f*10)/10f;
+    }
+
+6-4 문제
+정답 :
+    인스턴스 변수 : kind, num
+    클래스 변수 : width, height
+    지역변수 : k, n , card, args[]
+
+6-7 문제
+정답 : 멤버 weapon, armor
+      클래스 변수는 각 인스턴스들이 공유한다.
+      따라서 공격력과 방어력을 통일하기 위해서는
+      weapon과 armor의 값을 동일하게 해주어야한다.
