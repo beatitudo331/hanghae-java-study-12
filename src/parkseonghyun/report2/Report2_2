@@ -93,8 +93,6 @@ class Exercise5_5{
     }//end of main
 }//end of class
 
-
-
 //5-6. 단어의 글자위치를 섞어서 보여주고 원래의 단어를 맞추는 예제이다.
 //실행결과와 같이 동작하도록 빈 칸을 채우세요.
 import java.util.Scanner;
