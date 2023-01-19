@@ -1,0 +1,16 @@
+5-1번 문제
+
+int[] arr[];
+int[] arr = {1,2,3,}; //생략 가능
+int[] arr = new int[5];  //길이가 5인 int형 배열 생성. 이 경우엔 임시로 null값이 들어가 있다.
+int[] arr = new int[5]{1,2,3,4,5};
+int arr[5];
+int[] arr[] = new int[3][];
+
+
+잘못된 것 :
+
+int[] arr[];    // 바로 배열을 초기화해주지 않을거라면 따로 쓰지 못 한다.
+int[] arr = new int[5]{1,2,3,4,5};  //배열 길이와 함께 사용 불가능
+int arr[5];     // int 뒤에 괄호 빠짐
+int[] arr[] = new int[3][]; // 빠짐
