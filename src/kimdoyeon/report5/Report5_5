@@ -1,0 +1,10 @@
+// 6-7 번 문제
+
+정답 :
+
+static int weapon;
+static int armor;
+
+int weapon(공격력), int armor(방어력)에 static을 붙여야 한다.
+모든 병사의 공격력과 방어력이 같아야 하므로,
+static을 붙여 클래스 변수로 만들어주면 이 클래스의 어떤 객체에서도 동일한 값을 가질 수 있다.
