@@ -8,5 +8,6 @@ class Report4_3 {
         for(int i:arr)
             sum += i;
         System.out.println("sum="+sum);
+
     }
 }//예상 결과 : sum=150

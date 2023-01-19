@@ -3,6 +3,7 @@ package kimdonghyeon.report4;
 //코드를 완성하세요. 다만 Math.random()을 사용했기 때문에 실행 결과 예시와 다를 수 있습니다.
 class Report4_5 {
     public static void main(String[] args) {
+
         int[] ballArr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
         int[] ball3 = new int[3];
 
