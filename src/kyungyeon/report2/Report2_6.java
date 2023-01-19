@@ -8,7 +8,7 @@ public class Report2_6 {
         // 단, 변환값은 소수점 셋째자리에서 반올림하며, Math.round() 함수를 사용하지 않고 처리할 것!
 
         int fahrenheit = 100;
-        float celcius = (int)(5 / 9.0 * (fahrenheit - 32.0) * 100 + 0.5) / 100.0f;
+        float celcius = (int) (5 / 9.0 * (fahrenheit - 32.0) * 100 + 0.5) / 100.0f;
 
         System.out.println("Fahrenheit:" + fahrenheit);
         System.out.println("Celcius:" + celcius);
