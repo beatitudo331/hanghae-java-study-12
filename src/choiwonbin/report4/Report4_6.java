@@ -5,7 +5,6 @@ import java.util.Scanner;
 //  5-6
 public class Report4_6 {
     public static void main(String[] args) {
-
         String[] words = {"television", "computer","mouse","phone"};
         Scanner sc = new Scanner(System.in);
         int count;

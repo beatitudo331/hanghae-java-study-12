@@ -2,7 +2,6 @@ package choiwonbin.report3;
 //  4-7
 public class Report3_7 {
     public static void main(String[] args) {
-
         String str = "12345";
         int sum=0;
 

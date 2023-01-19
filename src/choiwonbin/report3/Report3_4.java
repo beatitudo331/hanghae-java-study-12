@@ -2,7 +2,6 @@ package choiwonbin.report3;
 // 4-4
 public class Report3_4 {
     public static void main(String[] args) {
-
         int sum = 0;    //  총합
         int s = 1;      //  값의 부호를 바꿔주는데 사용할 변수
         int num = 0;

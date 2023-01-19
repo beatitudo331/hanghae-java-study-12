@@ -2,7 +2,6 @@ package choiwonbin.report4;
 //  5-4
 public class Report4_4 {
     public static void main(String[] args) {
-
         int[][] arr= {
                 {5,5,5,5,5},
                 {10,10,10,10,10},
