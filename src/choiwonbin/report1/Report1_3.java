@@ -20,4 +20,6 @@ class Exercise2_8 {
         System.out.println("y="+y);
         System.out.println("z="+z);
     }
+
 }
+

@@ -11,4 +11,4 @@ short s = (short)ch;
 float f = (float)l;
 i = (int)ch;
 
-정답 : i = (int)ch;
+정답 : i = (int)ch;, float f = (float)l;
