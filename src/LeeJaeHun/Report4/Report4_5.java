@@ -19,12 +19,9 @@ class Report4_5 {
 
         }
 
-
-
         for (int i = 0; i < 3; i++) {
             ball3[i] = ballArr[i];
         }
-
 
         // 배열 ballArr의 앞에서 3개의 수를 배열 ball3로 복사한다
 
