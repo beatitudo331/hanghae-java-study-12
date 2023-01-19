@@ -7,6 +7,6 @@ public class Report2_3 {
     //알맞은 코드를 넣으시오.
     public static void main(String[] args){
         int num = 456;
-        System.out.println(456 - (num % 100));
+        System.out.println(num - (num % 100));
     }
 }
