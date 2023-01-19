@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Report3_10 {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         int answer = (int)(Math.random()*100+1);
         int input = 0;

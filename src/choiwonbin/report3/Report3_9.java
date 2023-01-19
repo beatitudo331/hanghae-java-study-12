@@ -2,6 +2,7 @@ package choiwonbin.report3;
 //4-9
 public class Report3_9 {
     public static void main(String[] args) {
+
         int num =12345;
         int sum = 0;
        while (num >0){
