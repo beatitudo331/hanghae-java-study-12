@@ -12,7 +12,7 @@ public class Report3_4 {
             sum += num * s;
 
             if (sum >= 100) { break; }
-            s = -1*s;
+            s *= -1;
         }
 
         System.out.println("num="+num);

@@ -22,6 +22,10 @@ public class Report3_10 {
             if (answer == input) {
                 System.out.println(count + "번만에 맞혔다.");
                 break;
+            } else if (input < answer) {
+                System.out.println("up");
+            } else {
+                System.out.println("down");
             }
         }
             while (true) ; //무한반복문
