@@ -12,6 +12,7 @@ public class Report1_3 {
         // Ex)
         AddClass addClass = new AddClass();
         addClass.test();
+        System.out.println(x);
     }
 }
 
