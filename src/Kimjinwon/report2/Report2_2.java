@@ -1,4 +1,4 @@
-package Kimjonwon.report2;
+package Kimjinwon.report2;
 // 3-2번 문제
 class Report2_2{
     public static void main(String[] args){

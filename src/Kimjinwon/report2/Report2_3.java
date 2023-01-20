@@ -1,4 +1,4 @@
-package Kimjonwon.report2;
+package Kimjinwon.report2;
 
 public class Report2_3 {
     //3-3. 아래는 변수의 num 값 중에서 백의 자리 이하를 버리는 코드이다.
