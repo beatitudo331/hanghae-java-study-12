@@ -8,13 +8,13 @@ public class Report4_6 {
 
         String[] words = {"television", "computer","mouse","phone"};
         Scanner sc = new Scanner(System.in);
-        int count;
+        int count=0;
         for (int i = 0; i < words.length; i++) {
             char[] question = words[i].toCharArray();
+            count++;
             for (int j = 0; j < question.length; j++) {
                 int idx = (int) (Math.random() % question.length);
                 char tmp;
-
                 tmp = question[j];
                 question[j] = question[idx];
                 question[idx] = tmp;
