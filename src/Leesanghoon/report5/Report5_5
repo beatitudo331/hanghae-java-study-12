@@ -1,0 +1,6 @@
+// 6-7 번 문제
+
+정담 : weapon, armor, weaponUp(), armorUp()
+
+이유 : weapon, armor : 모든 인스턴스가 같은 값을 가져야 할때 클래스 변수를 사용한다.
+      weaponUp(), armorUp() : 클래스 변수로만 이루어져 있어서 static을 붙여도 된다.
