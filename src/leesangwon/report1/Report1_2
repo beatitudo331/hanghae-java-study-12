@@ -1,0 +1,15 @@
+2-7번 번 문제
+
+정답 :
+    System.out.println("1" + "2");      //12
+    System.out.println(true+"");        //true
+    System.out.println('A' + 'B');      //131
+    System.out.println('1' + 2);        //51
+    System.out.println('1' + '2');      //99
+    System.out.println('J' +"ava");     //Java
+    System.out.println(true + null);    //오류
+
+   유니코드 문자표 ''유니코드로 변경
+   'A' = 65, 'B' = 66, 'A'+'B' = 131
+   '1' = 49, '1'+2 = 51
+   '1' = 49, '2' = 50, '1'+'2' = 99

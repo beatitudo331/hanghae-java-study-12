@@ -1,0 +1,12 @@
+// 4-1번 문제
+
+정답 :
+
+if(10 < x && x > 20)
+if(ch==' ' || ch=='\t')
+if(ch=='x' || ch=='X')
+if(ch<='0' && ch<='9')
+if(ch<='A' && ch<='Z' || ch<='a' && ch<='z')
+if((year%400==0)||(year%4==0)&&(year%100!=0)
+if(!powerOn)
+if(str.equals("yes"))

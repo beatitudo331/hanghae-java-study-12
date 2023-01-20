@@ -1,0 +1,17 @@
+3-1번 문제
+
+byte b = 10;
+char ch = 'A';
+int i = 100;
+long l = 1000L;
+
+정답 :
+
+
+b = (byte)i;            //불가
+ch = (char)b;           //불가
+short s = (short)ch;    //불가
+float f = (float)l;     //생략
+i = (int)ch;            //생략
+
+자동 형변환은 기존의 값을 최대한 보존할 수 있는 타입 변경시 가능하다.
