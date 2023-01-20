@@ -1,0 +1,21 @@
+Q 2-7 : 다음 문장들의 출력 결과를 적으세요. 오류가 있는 문장의 경우, '오류' 라고 적으세요.
+1. System.out.println("1" + "2");
+// 12
+
+2. System.out.println(true+"");
+// true (any type + 문자열 -> 문자열 + 문자열 -> 문자열)
+
+3. System.out.println('A' + 'B');
+// 131 (문자+문자 -> int 정수값)
+
+4. System.out.println('1' + 2);
+// 49
+
+5. System.out.println('1' + '2');
+// 99
+
+6. System.out.println('J' +"ava");
+// Java (문자<문자열 --- 문자열로 자동형변환)
+
+7. System.out.println(true + null);
+// Error (null은 참조형타입만 사용가능)

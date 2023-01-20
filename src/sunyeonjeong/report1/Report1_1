@@ -1,0 +1,7 @@
+Q 2-4 : 다음 중 변수를 잘못 초기화 한 것은?
+1. byte b = 256; // byte 범위 넘음
+2. char c = ''; // 빈 문자 Error
+3. char answer = 'no'; // 문자 타입에 문자열 저장 불가능
+4. float f = 3.14 // 접미사 f 빠짐
+5. double d = 1.4e3f;
+A : 1, 2, 3, 4
