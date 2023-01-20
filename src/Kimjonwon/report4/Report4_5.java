@@ -1,4 +1,4 @@
-package Kimjinwon.report4;
+package Kimjonwon.report4;
 
 public class Report4_5 {
     public static void main(String[] args) {
