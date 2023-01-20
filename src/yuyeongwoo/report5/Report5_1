@@ -1,0 +1,10 @@
+6-1번 문제
+
+정답 : class Student {
+         String name;
+         int ban;
+         int no;
+         int kor;
+         int eng;
+         int math;
+     }

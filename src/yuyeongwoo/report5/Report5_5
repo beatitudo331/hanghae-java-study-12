@@ -1,0 +1,22 @@
+6-7번 문제
+
+정답 : class Marine {
+         int x=0, y=0; //Marine의 위치좌표 (x,y)
+         int hp = 60; //현재 체력
+         static int weapon = 6; //공격력
+         static int armor = 0; //방어력
+         static void weaponUp() {
+             weapon++;
+         }
+         static void armorUp() {
+             armor++;
+         }
+         void move(int x, int y) {
+             this.x = x;
+             this.y = y;
+         }
+     }
+
+weapon, armor : weapon과 armor변수는 모든 인스턴스에 대해
+동일한 값을 가져야 하기 때문에 static 변수여야 한다.
+void weaponUp(), void armorUp() : weapon과 armor변수가 static이기 때문에 static메서드여야 한다.
