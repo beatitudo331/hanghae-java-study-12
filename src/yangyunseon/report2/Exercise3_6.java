@@ -13,5 +13,7 @@ public class Exercise3_6 {
 
         System.out.println("Fahrenheit:"+fahrenheit);
         System.out.println("Celcius:"+celcius);
+
+
     }
 }
