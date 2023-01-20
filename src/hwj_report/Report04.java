@@ -127,7 +127,7 @@ class Exercise5_13 {
             for(int j = 0; j < question.length; j++) {
 
                 int idx = (int) (Math.random() % question.length); // 인덱스를 가져오는 생각을 어케 하냐고
-                char tmp; // 이건 또 뭔데
+                char tmp;
                 tmp = question[j];
                 question[j] = question[idx];
                 question[idx] = tmp;
