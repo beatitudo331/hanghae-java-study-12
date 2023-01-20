@@ -162,7 +162,9 @@ public class report3_2 {
                 System.out.println();
             } while(true); //무한반복문
         } // end of main
-    } // end of class
+    }
+    }}
+// end of class
 //예상 결과
 //1과 100사이의 값을 입력하세요 : 50
 //더 큰 수를 입력하세요.
@@ -177,4 +179,4 @@ public class report3_2 {
 //1과 100사이의 값을 입력하세요 : 76
 //맞혔습니다.
 //시도횟수는 6번입니다.
-}
+
