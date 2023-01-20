@@ -8,7 +8,6 @@ public class Report1_3 {
         int z = 3;
         int temp = 0;
 
-
         // 1
         temp = x;
 
