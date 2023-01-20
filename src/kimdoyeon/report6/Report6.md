@@ -1,4 +1,4 @@
-// 6-8 번 ~ 6-14 번 문제
+// 6-8 번 ~ 6-16 번 문 
 
 #### 6-8. 다음 중 생성자에 대한 설명으로 옳지 않은 것은? (모두 고르시오)
 a. 모든 생성자의 이름은 클래스의 이름과 동일해야한다.<br>
@@ -72,3 +72,37 @@ e. 힙(heap)영역에 생성되며 가비지 컬렉터에 의해 소멸된다. <
     정답 : a, e
     a - 지역변수는 자동 초기화되지 않으므로, 꼭 초기화를 해야 한다.
     e - 지역변수는 호출 스택, 인스턴스 변수는 힙 영역에 생성된다.
+
+#### 6-15. 호출스택이 다음과 같은 상황일 때 옳지 않은 설명은? (모두 고르시오)
+a. 제일 먼저 호출스택에 저장된 것은 main메서드이다. <br>
+b. println메서드를 제외한 나머지 메서드들은 모두 종료된 상태이다. <br>
+c. method2메서드를 호출한 것은 main메서드이다. <br>
+d. println메서드가 종료되면 method1메서드가 수행을 재개한다. <br>
+e. main-method2-method1-println의 순서로 호출되었다. <br>
+f. 현재 실행중인 메서드는 println뿐이다. <br>
+
+    정답 : b
+    현재 실행중인 메서드는 println 이고, 나머지 메서드들은 대기상태이다.
+
+#### 6-16. 다음 코드의 실행 결과를 예측하여 적어주세요.
+```java
+class Exercise6_16 {
+    public static void change(String str) {
+    str += "456";
+    }
+    public static void main(String[] args) {
+        String str = "ABC123";
+        System.out.println(str);
+        change(str);
+        System.out.println("After change:" + str);
+    }
+}
+```
+
+    정답 :
+    ABC123
+    After change:ABC123
+    -> String은 문자열 내용을 변경할 수 없고, 내용이 변경되면 새로운 문자열로 생성된다.
+       main 함수 내에서 str이 가리키는 주소와, chane 함수 내에서 변경된 str이 가진 주소가
+       다르기 때문에 main 함수 내 str은 여전히 ABC123이다.
+
