@@ -50,7 +50,6 @@ println
 method1
 method2
 main
-
 6-15. 호출스택이 다음과 같은 상황일 때 옳지 않은 설명은? (모두 고르시오)
 a. 제일 먼저 호출스택에 저장된 것은 main메서드이다.                맞다
 b. println메서드를 제외한 나머지 메서드들은 모두 종료된 상태이다.    틀림(아직 작동중)
@@ -72,7 +71,6 @@ class Exercise6_16 {
         System.out.println("After change:" + str);
     }
 }
-
 >> 예상 결과
 ABC123
 After change:ABC123

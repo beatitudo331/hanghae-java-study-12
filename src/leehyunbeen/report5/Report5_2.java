@@ -17,10 +17,6 @@ class  Student {
         this.eng = 0;
         this.math = 0;
     }
-
-
-
-
     public Student(String name, int ban, int no, int kor, int eng, int math){
         this.name = name;
         this.ban =ban;
@@ -30,23 +26,18 @@ class  Student {
         this.math = math;
 
     }
-
     public int getTotal(){
         int total= 0;
         total = kor + eng + math;
 
         return total;
     }
-
     public float getAverage(){
         float avg = (kor+eng+math)/3f;
         avg = ((int)(avg*10+0.5))/10f;
 
         return avg;
     }
-
-
-
 
     public String info() {
         String[] str = new String[8];
@@ -58,12 +49,9 @@ class  Student {
         str[5] = Integer.toString(math);
         str[6] = Integer.toString(getTotal());
         str[7] = Float.toString(getAverage());
-
         return Arrays.toString(str);
     }
-
 }
-
 
 
 //6-2. 6-1에서 정의한 Student 클래스에 생성자와 info()를 추가해서 실행결과와 같은 결과를 얻도록 하세요.
@@ -87,7 +75,6 @@ class Exercise6_2{
 //소수점 둘째자리에서 반올림할 것.
 //반환타입 : float
 //매개변수 : 없음
-
 class Exercise6_3 {
     public static void main(String args[]) {
         Student s = new Student();
@@ -102,7 +89,6 @@ class Exercise6_3 {
         System.out.println("평균 :"+s.getAverage());
     }//예상 결과 : 이름 : 홍길동, 총점 : 236, 평균 : 78.7
 }
-
 
 
 //6-5. 다음의 코드에 정의된 변수들을 종류별(클래스 변수,인스턴스 변수, 지역변수)로 구분해서 적으세요.
@@ -121,8 +107,6 @@ class PlayingCard {
 }
 
 
-
-
 //6-7. 다음은 컴퓨터 게임의 병사(marine)를 클래스로 정의한 것이다.
 //이 클래스의 멤버 중에 static을 붙여야 하는 것은 어떤 것들이고 그 이유는 무엇인가?
 //(단, 모든 병사의 공격력과 방어력은 같아야 한다.)
@@ -132,7 +116,6 @@ class PlayingCard {
 //모든 병사들의 weapon과 armor가 변해야한다. 즉 static을 붙여주어 각각의 Marine에서만
 //weapon()과 armor()가 실행하지 못하게 해야하며, Marine 클래스를 상속받은 모든 객체의
 //weapon과 armor가 같아야 하고 똑같이 증가 해야하한다.
-
 class Marine {
     int x=0, y=0; //Marine의 위치좌표 (x,y)
     int hp = 60; //현재 체력

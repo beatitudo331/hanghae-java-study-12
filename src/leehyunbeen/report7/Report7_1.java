@@ -10,24 +10,17 @@ class Exercise6_17 {
             arr[i] = arr[cnt];
             arr[cnt] = temp;
         }
-
-
         return arr;
-
     }
-
     public static void main(String[] args) {
         int[] original = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
         System.out.println(java.util.Arrays.toString(original));
-
         int[] result = shuffle(original);
         System.out.println(java.util.Arrays.toString(result));
     }
 }
 
-
 class Exercise6_18 {
-
     public static boolean isNumber(String str){
         boolean ans = true;
         char c;
@@ -112,18 +105,15 @@ class Exercise6_19 {
         System.out.println("CH:" + t.channel + ", VOL:" + t.volume);
     }
 }
-
 //예상 결과 : CH: 100, VOL: 0 / CH: 99, VOL: 0 / CH: 100, VOL: 100
 
 
 class Exercise6_20 {
-
     public static int max(int[] arr){
         int ans = -999999;
         if ((arr == null) || (arr.length == 0)){
             return ans;
         }
-
         for (int num : arr){
             if(num > ans){
                 ans = num;
@@ -131,7 +121,8 @@ class Exercise6_20 {
         }
         return ans;
     }
-    /* (1) max 메서드를 작성하시오 . */
+
+
     public static void main(String[] args) {
         int[] data = {3,2,9,4,7};
         System.out.println(java.util.Arrays.toString(data));
@@ -140,19 +131,16 @@ class Exercise6_20 {
         System.out.println("최대값  :"+max(new int[]{})); // 크기가 0인 배열  }
     }
 }
-
 //예상 결과 : 최대값: 9 / 최대값: -99999 최대값: -999999
 
 
 class Exercise6_21 {
-    /* (1) abs 메서드를 작성하시오. */
     public static int abs(int value){
         int ans = 0;
-
         ans = value>0 ? value : value * -1;
-
         return ans;
     }
+
     public static void main(String[] args) {
         int value = 5;
         System.out.println(value + "의 절대값 :" + abs(value));
