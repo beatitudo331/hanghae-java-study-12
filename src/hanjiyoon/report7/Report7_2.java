@@ -13,8 +13,7 @@ class Exercise6_18 {
 
     /*isNumber 메서드를 작성하세요.*/
     public static boolean isNumber(String str){
-        int isTrueCount = str.length();
-        for (int i=0; i<str.length(); i++){
+        for (int i=0; i<str.length(); i++){ // 123 '1'
             if (str.charAt(i) >= '0' && str.charAt(i) <= '9') {continue;}
             else { return false; }
         }

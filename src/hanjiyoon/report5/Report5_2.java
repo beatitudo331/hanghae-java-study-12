@@ -27,7 +27,7 @@ class Student1{
         this.math = math;
     }
 
-    public String info(){          // 78.66666 -> Math.round(78.666666) -> Math.round(786.66666) -> 787/10.0f -> 78.7
+    public String info(){          // 786.6666 -> Math.round(78.666666) -> Math.round(786.66666) -> 787/10.0f -> 78.7
         float avg = Math.round(((kor+eng+math)/3.0f)*10)/10.0f;
         return(name+", "+ban+", "+no+", "+kor+", "+eng+", "+math+", "+avg);
     }
