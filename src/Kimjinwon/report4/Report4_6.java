@@ -1,4 +1,4 @@
-package Kimjonwon.report4;
+package Kimjinwon.report4;
 
 import java.util.Scanner;
 
