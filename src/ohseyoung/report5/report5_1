@@ -1,0 +1,5 @@
+6-1번 문제
+class Student{
+    String name;
+    int ban,no,kor,eng,math;
+}
