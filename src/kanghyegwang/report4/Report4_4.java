@@ -34,7 +34,7 @@ class Exercise5_4 {
         float average = 0;
         int cnt = 0;
 
-        for(int i = 0; i < 4; i++) {
+        for(int i = 0; i < arr.length; i++) {
              for(int x : arr[i]) {
                  total += x;
                  cnt++;

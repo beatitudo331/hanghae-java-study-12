@@ -5,3 +5,11 @@
 //타입 : int, 변수명 : kor, 설명 : 국어 점수
 //타입 : int, 변수명 : eng, 설명 : 영어 점수
 //타입 : int, 변수명 : math, 설명 : 수학 점수
+class Student() {
+    String name;
+    int ban;
+    int no;
+    int kor;
+    int eng;
+    int math;
+}
