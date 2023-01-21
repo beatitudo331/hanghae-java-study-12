@@ -1,0 +1,34 @@
+// 문제 6-16
+
+
+//6-16. 다음 코드의 실행 결과를 예측하여 적어주세요.
+class Exercise6_16 {
+    public static void change(String str) {
+        str += "456";
+    }
+
+    public static void main(String[] args) {
+        String str = "ABC123";
+        System.out.println(str);
+        change(str);
+        System.out.println("After change:" + str);
+    }
+}
+
+정답 :
+ABC123
+After change:ABC123
+
+
+처음에는 ABC123이 str로 넘어가고 change(str)에서 ABC123456이 될 것이라고 생각했다
+그런데 실제로는 change를 돌려도 결과는 ABC123 이었고 왜 그런지 알아봤다
+
+확인!) 참조형 변수는 주소값을 저장하는 변수이고 메모리상에서 기본형 변수와는 다른 과정으로 값이 저장된다.
+
+1. 처음에 str에 "ABC123" 이 들어간다.
+2. 그다음 change(str)을 호출하면 str값이 change의 str에 저장된다. (str은 String str = "ABC123" 주소값을 참조)
+3. 메서드 change에서는 넘겨받은 문자열 뒤에 "456"을 붙인다. (str = "ABC123456" 이 되었기때문에 주소값이 달라짐 - 새로운 문자열이기때문에)
+4. 그런데 메서드 change가 종료되면 메모리가 해제가 된다. 그렇게되면 메서드 change의 지역변수인 str도 같이 제거되고
+5. 메인으로 돌아와서 str을 출력해보면 "ABC123" 이 그대로 출력된다.
+
+한마디로 change메서드에서 했던 작업은 붕 뜬 상태라고 볼 수 있겠다. (메모리가 해제되면서 "ABC123456"이 날아갔으니)
