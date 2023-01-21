@@ -20,8 +20,13 @@ class Student {
     int eng;        // 영어 점수
     int math;       // 수학 점수
     Student(String name, int ban, int no, int kor, int eng, int math) {
-
-
+        this.name = name;
+        this.ban = ban;
+        this.no = no;
+        this.kor = kor;
+        this.eng = eng;
+        this.math = math;
     }
 } //class 끝
+public sta
 
