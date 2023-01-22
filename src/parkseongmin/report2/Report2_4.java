@@ -1,4 +1,4 @@
-Report2_2package parkseongmin.report2;
+package parkseongmin.report2;
 // 3-4번 문제
 public class Report2_4 {
     public static void main(String[] args){
