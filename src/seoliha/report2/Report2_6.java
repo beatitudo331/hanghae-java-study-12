@@ -1,6 +1,4 @@
 package seoliha.report2;
-
-import java.io.PrintStream;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 
