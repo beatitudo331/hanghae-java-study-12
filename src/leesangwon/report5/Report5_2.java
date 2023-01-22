@@ -28,5 +28,5 @@ class Student {
         this.math = math;
     }
 } //class 끝
-public sta
+public Student
 
