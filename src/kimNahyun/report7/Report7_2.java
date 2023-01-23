@@ -4,6 +4,7 @@ package kimNahyun.report7;
 public class Report7_2 {
     //String클래스의 charAt(int i)메서드를 사용하면 문자열의 i번째 위치한 문자를 얻을 수 있다.
 
+
     static boolean isNumber(String str){
         boolean result = true;
         if(str.equals("")){

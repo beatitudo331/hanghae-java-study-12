@@ -4,6 +4,7 @@ package kimNahyun.report7;
 import java.util.Arrays;
 public class Report7_1 {
 
+
     static int[] shuffle(int[] arr){
 
         int[] result = arr.clone();

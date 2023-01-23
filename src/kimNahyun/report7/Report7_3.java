@@ -36,6 +36,7 @@ class MyTv {
         // 만일 channel이 MAX_CHANNEL이면 , channel의 값을 MIN_CHANNEL로 바꾼다.
     }
     void channelDown() {
+
         channel--;
         if(channel<MIN_CHANNEL){
             channel = MAX_CHANNEL;

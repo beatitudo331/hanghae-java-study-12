@@ -17,4 +17,5 @@ public class Report7_5 {
         System.out.println(value + "의 절대값 :" + abs(value));
     }
 }
+
 //예상 결과 : 5의 절대값 : 5 / -10의 절대값 : 10
