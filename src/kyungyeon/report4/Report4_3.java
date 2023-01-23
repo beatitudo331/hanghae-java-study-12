@@ -10,6 +10,6 @@ public class Report4_3 {
             sum += i;
         }
 
-        System.out.println("sum="+sum);
+        System.out.println("sum=" + sum);
     }
 }
