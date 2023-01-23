@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90340f49-d923-4a89-9956-4a3507f90488" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/flowchart.jfif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report3_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/Report3_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report3_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/Report3_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../report4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../report4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../report4/.idea/report4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../report4/.idea/report4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../report4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../report4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../report4/Report4_1" beforeDir="false" afterPath="$PROJECT_DIR$/../report4/Report4_1" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2KX5018FxrEbPfXqcMmPIag81BZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/user/Desktop/java/hanghae-java-study-12/src/parkseongmin/report3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\java\hanghae-java-study-12\src\parkseongmin\report3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="애플리케이션.Exercise4_7">
+    <configuration name="Arrays3_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays3_1" />
+      <module name="report3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Control4_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Control4_1" />
+      <module name="report3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise4_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise4_10" />
+      <module name="report3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise4_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise4_4" />
+      <module name="report3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise4_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise4_7" />
+      <module name="report3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.Exercise4_7" />
+        <item itemvalue="애플리케이션.Exercise4_4" />
+        <item itemvalue="애플리케이션.Exercise4_10" />
+        <item itemvalue="애플리케이션.Control4_1" />
+        <item itemvalue="애플리케이션.Arrays3_1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="90340f49-d923-4a89-9956-4a3507f90488" name="변경" comment="" />
+      <created>1674107859226</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674107859226</updated>
+      <workItem from="1674107860335" duration="3940000" />
+      <workItem from="1674115695483" duration="2176000" />
+      <workItem from="1674174751219" duration="46000" />
+      <workItem from="1674294048838" duration="5652000" />
+      <workItem from="1674345771785" duration="12846000" />
+      <workItem from="1674435913830" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

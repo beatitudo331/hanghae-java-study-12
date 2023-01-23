@@ -1,0 +1,13 @@
+4-1번 문제
+
+정답 :
+        int x;  ( 10 < x && x < 20 )
+        char ch;    ( ch == ' ' ||  ch == '\t' || ch=='\n')
+        char ch;    ( ch == 'x' || ch == 'X')
+        char ch;    ('0' <= ch && ch <= '9')
+        char ch;    ('A' <= ch && ch <= 'Z' || 'a' <= ch && ch <= 'z')
+        int year;   (year % 400 == 0 || year % 4 == 0 && year % 100 != 0)
+        boolean powerOn;    powerOn = false;    System.out.println(true)
+
+        str.equals("yes")
+        str.equalsIgnoreCase("yes")

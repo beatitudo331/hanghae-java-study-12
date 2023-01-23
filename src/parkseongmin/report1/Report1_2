@@ -1,0 +1,10 @@
+2-7번 번 문제
+
+정답 :
+System.out.println("1" + "2");        12
+System.out.println(true+"");          true
+System.out.println('A' + 'B');        AB
+System.out.println('1' + 2);          오류        숫자와 문자열 결합 불가
+System.out.println('1' + '2');        12
+System.out.println('J' +"ava");       오류        '' ""통일 필요
+System.out.println(true + null);      true

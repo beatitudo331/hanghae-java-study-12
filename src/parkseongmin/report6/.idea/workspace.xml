@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4dbf321-3031-4e0a-87f9-7f2cd8715d5b" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/../report1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../report2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../report3/.gitinore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../report5/.gitinore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../report5/Report5_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitinore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../report2/Report2_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../report2/Report2_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../report3/Report3_1" beforeDir="false" afterPath="$PROJECT_DIR$/../report3/Report3_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../report5/Report5_2.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2Kg4VHyMAdA4TBvJOclQFi7XZFX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/user/Desktop/java/hanghae-java-study-12/src/parkseongmin/report6",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\java\hanghae-java-study-12\src\parkseongmin\report6" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="d4dbf321-3031-4e0a-87f9-7f2cd8715d5b" name="변경" comment="" />
+      <created>1674382913783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674382913783</updated>
+      <workItem from="1674382914965" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
