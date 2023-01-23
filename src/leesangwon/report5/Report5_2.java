@@ -27,6 +27,15 @@ class Student {
         this.eng = eng;
         this.math = math;
     }
+public String info() {
+    return name
+            +","+ban
+            +","+no
+            +","+kor
+            +","+eng
+            +","+math
+            +","+(kor+eng+math)
+            +","+((int)((kor+eng+math)/3f*10+0.5)/10f)
+;
+}
 } //class 끝
-public Student
-
