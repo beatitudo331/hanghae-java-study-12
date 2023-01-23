@@ -13,7 +13,7 @@ package leesangwon.report5;
 //매개변수 : 없음
 public class Report5_3 {
     public static void main(String[] args) {
-        Student s = new Student();
+        Student1 s = new Student1();
         s.name = "홍길동";
         s.ban = 1;
         s.no = 1;
@@ -25,15 +25,15 @@ public class Report5_3 {
         System.out.println("평균 :"+s.getAverage());
     }//예상 결과 : 이름 : 홍길동, 총점 : 236, 평균 : 78.7
 }
-class Student {
+class Student1 {
     String name;    // 학생이름
     int ban;        // 반
     int no;         // 번호
     int kor;        // 국어 점수
     int eng;        // 영어 점수
     int math;
-    Student() {}// 수학 점수
-    Student(String name, int ban, int no, int kor, int eng, int math) {
+    Student1() {}// 수학 점수
+    Student1(String name, int ban, int no, int kor, int eng, int math) {
         this.name = name;
         this.ban = ban;
         this.no = no;
@@ -45,7 +45,7 @@ class Student {
         return kor+eng+math;
     }
     float getAverage() {
-        return (int)(getTotal() / 3f*10+0.5f)/10f;
+        return (int)(getTotal() / 3f*10+0.5)/10f;
     }
     public String info() {
         return name
