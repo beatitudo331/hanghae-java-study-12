@@ -59,5 +59,5 @@ class Student1 {
                 ;
     }
 
-} //class 끝 /*빈 칸*/
+} //class 끝
 
