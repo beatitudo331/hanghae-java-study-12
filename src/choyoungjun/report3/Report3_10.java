@@ -20,6 +20,7 @@ public class Report3_10 {
             else{
                 System.out.println("맞혔습니다.");
                 System.out.println("시도횟수는 "+count+"번입니다.");
+                break;
             }
         } while(true); //무한반복문
     }
