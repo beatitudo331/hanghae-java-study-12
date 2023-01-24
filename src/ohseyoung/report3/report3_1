@@ -1,0 +1,19 @@
+4-1번 문제
+
+정답 :
+10<x && x<20
+
+ch!=' ' && ch!=9
+
+ch=='x' || ch=='X'
+
+ch>='0' && ch<='9'
+
+(ch>='a' && ch<='z') || ( ch>='A' && ch<='Z')
+
+year%400==0 || year%4 ==0 && year%100 != 0
+
+powerOn==false
+
+Objects.equals(str, "yes")
+
