@@ -1,5 +1,5 @@
 package leejingyu;
-//
+
 class Exercise6_17 {
 
     public static int[] shuffle(int[] arr){
