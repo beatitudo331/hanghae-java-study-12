@@ -1,0 +1,46 @@
+3-2번 문제
+
+
+int x = 2;
+int y = 5;
+char c = 'A'; // 'A'의 문자코드는 65
+
+System.out.println(y >= 5 || x < 0 && x > 2);
+// true
+// &&가 ||보다 우선순위가 높기 때문에 true||false로 true가 된다
+
+System.out.println(y += 10 - x++);
+//13
+//y=y+10과 같은 의미 따라서 15-2 = 13이 된다. 후위형이니 x는 이후 3이 됨
+
+System.out.println(x += 2);
+//5
+// x= x+2. 위에서 3으로 바뀌었으니 5가 됨
+
+System.out.println(!('A' <= c && c <= 'Z'));
+//false
+//65=65 && 65<90으로 true지만 !에 의해 false로 바뀜
+
+System.out.println('C' - c);
+//2
+//67-65
+
+System.out.println('5' - '0');
+//5
+//53-48
+
+System.out.println(c + 1);
+//66
+//65+1
+
+System.out.println(++c);
+//B
+//전위형
+
+System.out.println(c++);
+//B
+//후위형
+
+System.out.println(c);
+//C
+//위에서 후위형으로 증가하였으니 결과적으론 C
