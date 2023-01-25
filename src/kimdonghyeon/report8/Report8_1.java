@@ -6,8 +6,18 @@ class SutdaDeck {
 
     SutdaDeck() {
         for (int i = 1; i <= CARD_NUM; i++)
-            if (i == 1 || i == 3 || i == 8) this.cards[i - 1] = new SutdaCard(i, true);
-            else this.cards[i - 1] = new SutdaCard(i, false);
+            if (i == 1 || i == 3 || i == 8) {
+                if(i>10)
+                    this.cards[i - 1] = new SutdaCard(i-10, true);
+                else
+                    this.cards[i - 1] = new SutdaCard(i, true);
+            }
+            else {
+                if(i>10)
+                    this.cards[i - 1] = new SutdaCard(i-10, false);
+                else
+                    this.cards[i - 1] = new SutdaCard(i, false);
+            }
     }
 }
 
