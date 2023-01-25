@@ -1,0 +1,60 @@
+//3-2. 다음 연산의 결과와 그 이유를 적으세요.
+class Exercise3_2{
+   public static void main(String[] args){
+      int x = 2;
+      int y = 5;
+      char c = 'A'; // 'A'의 문자코드는 65
+
+      System.out.println(y >= 5 || x < 0 && x > 2);
+      - 결과 : true
+      &&가 ||보다 우선 순위가 높기 때문에 x < 0 && x > 2 먼저 처리.
+      x < 0 && x > 2 = false
+      y >= 5 = true
+      true || false = true
+
+      System.out.println(y += 10 - x++);
+      - 결과 : 13
+      y += 10는 y = y + 10과 같은 의미로 y = 15
+      x는 후위형으로 15 - 2를 한 후 3으로 증가
+
+      System.out.println(x += 2);
+      - 결과 : 5
+      위에서 x++로 x가 1 증가하여 3이 됨
+      증가한 값에 +2를 하면 5
+
+      System.out.println(!('A' <= c && c <= 'Z'));
+      - 결과 : false
+      'A'는 아스키코드표에 65이므로 c도 65, 'Z'는 90
+      65 <= 65 && 65 <= 90은 true
+      !는 not의 의미로 boolean의 값을 반대로 바꿈
+      true가 아닌 것은 false이므로 결과는 false
+
+      System.out.println('C' - c);
+      - 결과 : 2
+      'C'는 아스키코드표에서 67이고 c는 'A'이므로 67 - 65
+
+      System.out.println('5' - '0');
+      - 결과 : 5
+      '5'는 아스키코드표에서 53이고 '0'은 48
+      53 - 48 = 5
+
+      System.out.println(c + 1);
+      - 결과 : 66
+      c는 'A'고 'A'는 아스키코드표에서 65이기 때문에 +1을 하면 66
+
+      System.out.println(++c);
+      - 결과 : B
+      ++c는 전위형이므로 1 증가 후 출력을 함
+      c는 'A'고 1 증가 후 66이되므로 'B'
+
+      System.out.println(c++);
+      - 결과 : B
+      c++는 후위형이므로 출력 후 1 증가함
+      위에 c가 1 증가해서 66 == 'B'가 출력되고
+      출력 후 1 증가함
+
+      System.out.println(c);
+      - 결과 : C
+      위에서 후위형으로 1 증가하여 66 + 1 = 67 = 'C'가 됨
+   }
+}
