@@ -1,5 +1,7 @@
 package wooramhong.report4;
 
+import java.util.Arrays;
+
 public class Report4_5 {
     public static void main(String[] args) {
         int[] ballArr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
@@ -19,7 +21,8 @@ public class Report4_5 {
         }
 
         // 배열 ballArr의 앞에서 3개의 수를 배열 ball3로 복사한다
-        /*빈 칸*/
+        ball3 = Arrays.copyOf(ballArr, 3);
+
         for (int i = 0; i < ball3.length; i++) {
             System.out.print(ball3[i]);
         }
