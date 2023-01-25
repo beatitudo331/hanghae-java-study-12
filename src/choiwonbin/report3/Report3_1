@@ -1,3 +1,29 @@
 // 4-1번 문제
 
 정답 :
+
+1. int x= 11;
+        if(x > 10 && x < 20){
+            System.out.println("큽니다");
+        }else{
+            System.out.println("작습니다");
+        }
+
+2.  !(ch ==' '||ch=='\t')
+
+3.  (ch == 'x' || ch == 'X')
+
+4. (ch >= '0' && ch <= 9)
+
+5. (ch >= 'a' && ch <='z') || (ch >= 'A' && ch <='Z')
+
+6. (year%400==0|| year%4==0 && year%100!=0)
+
+7. if(!powerOn)
+
+8.      String str = "yes";
+        if(str.equals("yes")){
+            System.out.println(true);
+        }else{
+            System.out.println(false);
+        }
