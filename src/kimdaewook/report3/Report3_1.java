@@ -38,7 +38,7 @@ public class Report3_1 {
 
         //문자열 참조변수 str이 "yes"일 때 true인 조건식
         if (str.equals("yes")) ;
-        Report3_9 report34 = new Report3_9();
+        Report3_2 report34 = new Report3_2();
         report34.report();
     }
 }
