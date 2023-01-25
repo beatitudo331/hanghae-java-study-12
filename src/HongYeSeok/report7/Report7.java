@@ -45,6 +45,7 @@ class Exercise6_18 {
         //모두 숫자로만 이루어져있으면 true를 반환하고, 그렇지 않으면 false를 반환한다.
         //만일 주어진 문자열이 null이거나 빈문자열 ""이라면 false를 반환한다.
         //
+
         try {
             Integer.parseInt(str);
             return true;

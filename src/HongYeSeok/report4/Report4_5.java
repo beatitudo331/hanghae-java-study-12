@@ -11,11 +11,12 @@ public class Report4_5 {
         // 배열 ballArr의 임의의 요소를 골라서 위치를 바꾼다
         for (int i = 0; i < ballArr.length; i++) {
             int j = (int) (Math.random() * ballArr.length);
-            int tmp = 0;
+            int tmp;
             tmp = ballArr[i];
             ballArr[i] = ballArr[j];
             ballArr[j] = tmp;
         }
+
 
         for (int i = 0; i < 3; i++) {
             ball3[i] = ballArr[i];
