@@ -1,0 +1,33 @@
+//문제 7-3번
+
+class Product {
+    int price; // 제품의 가격
+    int bonusPoint; // 제품구매 시 제공하는 보너스점수
+
+    // (구현)
+    Product() {}                             <= 해결1
+
+    Product(int price) {
+        this.price = price;
+        bonusPoint = (int) (price / 10.0);
+    }
+}
+
+class Tv extends Product {
+    Tv() {}                                 <= 컴파일 에러 / 이유: Tv() 생성자가 호출되면 Tv()는 조상의 기본 생성자를 호출한다.
+                                               하지만 조상 클래스에는 기본 생성자가 정의되어있지 않다.
+                                               (이미 다른 생성자가 정의되어있기 때문에 컴파일러가 기본 생성자를 자동 추가해주지 않는다.)
+    Tv() {                                  <= 해결2 조상 클래스의 Product(int price) 생성자를 직접 호출해도 된다.
+        super(200)
+    }
+    public String toString() {
+        return "Tv";
+    }
+}
+
+class Exercise7_3 {
+    public static void main(String[] args) {
+        Tv t = new Tv();
+    }
+}
+
