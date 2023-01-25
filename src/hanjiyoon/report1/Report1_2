@@ -1,0 +1,10 @@
+2-7번 번 문제
+
+정답 :
+System.out.println("1" + "2");      출력: "12"
+System.out.println(true+"");        출력: ture
+System.out.println('A' + 'B');      출력: AB
+System.out.println('1' + 2);        출력: 52
+System.out.println('1' + '2');      출력: 99
+System.out.println('J' +"ava");     출력: Java
+System.out.println(true + null);    오류
