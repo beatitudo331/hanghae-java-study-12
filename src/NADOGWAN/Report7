@@ -1,0 +1,90 @@
+6-17 문제
+정답 :
+    static int[] shuffle(int[] original){
+        for (int i = 0; i < original.length; i++) {
+            int j = (int)(Math.random() * original.length);
+            int tmp = original[i];
+            original[i] = original[j];
+            original[j] = tmp;
+        }
+
+        return original;
+    }
+
+6-18 문제
+정답 :
+    static boolean isNumber(String str){
+        boolean isNumber = true;
+        for (int i = 0; i < str.length(); i++) {
+            if(str.charAt(i)-65 > 0){
+                isNumber = false;
+                break;
+            }
+        }
+        return isNumber;
+    }
+
+6-19 문제
+정답 :
+    void turnOnOff() {
+        this.isPowerOn = !isPowerOn;
+        if(isPowerOn == true){
+            System.out.println("Tv를 켭니다");
+        }else{
+            System.out.println("Tv를 끕니다");
+        }
+        // (1) isPowerOn의 값이 true면 false로, false면 true로 바꾼다.
+    }
+    void volumeUp() {
+        // (2) volume의 값이 MAX_VOLUME보다 작을 때만 값을 1 증가시킨다.
+        if(volume < MAX_VOLUME){
+            volume++;
+        }
+    }
+    void volumeDown() {
+        // (3) volume의 값이 MIN_VOLUME보다 클 때만 값을 1 감소시킨다.
+        if(MIN_VOLUME < volume){
+            volume--;
+        }
+    }
+    void channelUp() {
+        // (4) channel의 값을 1 증가시킨다.
+        if(channel == MAX_CHANNEL){
+            channel = MIN_CHANNEL;
+        }else {
+            channel++;
+        }
+
+        // 만일 channel이 MAX_CHANNEL이면 , channel의 값을 MIN_CHANNEL로 바꾼다.
+    }
+    void channelDown() {
+        // (5) channel의 값을 1 감소시킨다 .
+        if(channel == MIN_CHANNEL){
+            channel = MAX_CHANNEL;
+        }else {
+            channel--;
+        }
+        // 만일 channel이 MIN_CHANNEL이면, channel의 값을 MAX_CHANNEL로 바꾼다.
+    }
+
+6-20 문제
+정답 :
+    static int max(int[] arr){
+        if(arr.length == 0 || arr == null){
+            return -999999;
+        }
+        int tmp = 0;
+            for(int i : arr){
+                if(tmp < i){
+                    tmp = i;
+                }
+
+            return tmp;
+        }
+
+6-21 문제
+정답 :
+    static int abs(int value){
+        int result = (value < 0) ? value * -1 : value;
+        return result;
+    }

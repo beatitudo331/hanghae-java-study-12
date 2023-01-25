@@ -1,0 +1,68 @@
+7-1 문제
+정답 :
+    SutdaDeck() {
+        // (구현) 배열 SutdaCard를 적절히 초기화 하시오.
+        for (int i = 0; i < cards.length; i++) {
+            int num = i%10+1;
+            if(i< 10 && (num==1 || num==3 || num==8)){
+                cards[i] = new SutdaCard(num, true);
+            }else{
+                cards[i] = new SutdaCard(num, false);}
+        }
+
+7-2 문제
+정답 :
+    void shuffle() {
+        for (int i = 0; i < cards.length; i++) {
+            int num = (int)(Math.random()*cards.length);
+            SutdaCard tmp = cards[i];
+            cards[i] = cards[num];
+            cards[num] = tmp;
+        }
+    }
+
+    SutdaCard pick(int index) {
+        return cards[index];
+    }
+
+    SutdaCard pick() {
+        int index = (int)(Math.random()* cards.length);
+        return cards[index];
+
+7-3 문제
+정답 :
+생성자는 생성자의 첫줄에 다른 생성자를 무조건 호출해야만한다.
+따로 명시하지 않을 경우, 컴파일러는 자동적으로 super(); 를 추가하여 부모 클래스의 기본 생성자를 호출하게 된다.
+
+Tv 클래스의 기본 생성자에서 부모클래스의 기본 생성자를 호출하였으나, Product 클래스에
+다른 생성자가 이미 선언되어있어 컴파일러가 기본 생성자를 추가하지 않았다.
+생성자가 이미 명시되어 있을 경우, 컴파일러는 따로 기본 생성자를 추가하지 않는다.
+
+    Product(){
+
+    }
+
+7-4 문제
+정답 :
+    public boolean setPowerOn(boolean PowerOn) {
+        return isPowerOn;
+    }
+    public boolean getPowerOn(){
+        return this.isPowerOn;
+    }
+
+    public void setChannel(int channel) {
+        this.channel = channel;
+    }
+
+    public int getChannel() {
+        return channel;
+    }
+
+    public void setVolume(int volume) {
+        this.volume = volume;
+    }
+    public int getVolume() {
+        return volume;
+    }
+    ,
