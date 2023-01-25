@@ -115,7 +115,7 @@ class Exercise6_19 {
 
 //예상 결과 : CH: 100, VOL: 0 / CH: 99, VOL: 0 / CH: 100, VOL: 100
 
-import java.util.Arrays;
+
 
 class Exercise6_20 {
     /* (1) max 메서드를 작성하시오 . */
