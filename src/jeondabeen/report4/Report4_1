@@ -1,0 +1,5 @@
+int[] arr[];
+=> int[] arr; OR int arr[];
+
+int[] arr[] = new int[3][];
+=> int[][] arr = new int[3][]; OR int arr[][] = new int[3][];
