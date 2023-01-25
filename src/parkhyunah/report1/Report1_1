@@ -1,0 +1,8 @@
+2-4번 문제
+
+정답 :
+
+byte b = (byte) 256;    // overdlow 발생
+char c = ' ';           // char 타입은 빈 문자 불가능
+char answer = 'no';     // char 타입은 문자 하나만 가능
+float f = 3.14         // float 타입이기 때문에 리테일에 접미사 f 를 붙여야하고, 끝에 (;)세미콜론을 붙여야함
