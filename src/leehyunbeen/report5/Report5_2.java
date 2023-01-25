@@ -121,7 +121,7 @@ class Marine {
     int hp = 60; //현재 체력
     static int weapon = 6; //공격력
     static int armor = 0; //방어력
-    static void weaponUp() {
+    void weaponUp() {
         weapon++;
     }
     static void armorUp() {

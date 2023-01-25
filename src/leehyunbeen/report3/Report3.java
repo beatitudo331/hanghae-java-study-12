@@ -22,14 +22,17 @@ class Exercise4_2 {
 //4-3. 1+(1+2)+(1+2+3)+(1+2+3+4)+...+(1+2+3+...+10)의 결과를 계산하세요.
 class Exercise4_3 {
     public static void main(String[] args) {
-        int sum = 0;
-        int totalSum = 0;
+        int i = 0;
+        int Sum = 0;
+        int finalsum = 0;
 
-        while (sum < 10) {
-            sum ++;
-            totalSum += sum;
-            System.out.println("totalSum="+totalSum);
+        while (i < 10) {
+            i ++;
+            Sum += i;
+            finalsum += Sum;
+            System.out.println("Sum="+Sum);
         }
+        System.out.println(finalsum);
     }
 }
 
