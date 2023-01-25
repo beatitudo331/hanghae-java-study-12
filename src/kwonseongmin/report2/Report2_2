@@ -1,0 +1,31 @@
+//3-2. 다음 연산의 결과와 그 이유를 적으세요.
+class Exercise3_2{
+   public static void main(String[] args){
+      int x = 2;
+      int y = 5;
+      char c = 'A'; // 'A'의 문자코드는 65
+
+      System.out.println(y >= 5 || x < 0 && x > 2);
+      System.out.println(y += 10 - x++);
+      System.out.println(x += 2);
+      System.out.println(!('A' <= c && c <= 'Z'));
+      System.out.println('C' - c);
+      System.out.println('5' - '0');
+      System.out.println(c + 1);
+      System.out.println(++c);
+      System.out.println(c++);
+      System.out.println(c);
+   }
+}
+
+정답 : 1. true / 비교연산자는 &&가 ||보다 우위이고 y > 5가 참이므로 || 연산자에 의해 참입니다.
+      2. 13 / value++는 참조 이후에 처리되기 때문에 y += 10 - 2 => y = 5 + 10 - 2 => y = 13
+      3. 4 / x는 수식에서 사용되어서 증감연산이 작용하지 않아서 x = 2이고 2 + 2 = 4
+      4. false / 'A' <= c = true, c <= 'Z' = true 둘다 모두 참이기에 ('A' <= c && c <= 'Z')는 참이고 이것의 부정은 false
+      5. 2 / 'C'의 문자코드는 67이고 변수 c 즉 'A'의 문자코드는 65이므로 67 - 65 = 2
+      6. 5 / '5'는 5 '0'은 0이므로 5-0 = 5
+      7. 66 / 'A' 의 코드는 65이고 65+1=66
+      8. 'B' / ++c는 증가 후 대입
+      9. 'B' / c는 이전에 'B'가 되었고 c++는 대입후 출력
+      10. 'C' / 이전에 증가되었기에 'C'
+
