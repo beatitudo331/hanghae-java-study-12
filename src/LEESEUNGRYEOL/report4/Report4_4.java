@@ -22,8 +22,6 @@ public class Report4_4 {
         }
 
         average = (float)(total)/count;
-        /*빈 칸*/
-
         System.out.println("total=" + total);
         System.out.println("average=" + average);
     }
