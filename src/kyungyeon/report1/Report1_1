@@ -1,0 +1,9 @@
+2-4번 문제
+
+byte b = 256;       (8bit, 맨 앞은 부호, -2^7 ~ 2^7-1 , -128 ~ 127)
+char c = '';        (char는 빈 문자 불가능)
+char answer = 'no'; (char는 문자 하나까지만 가능)
+float f = 3.14      (3.14f)
+double d = 1.4e3f;  (1.4e3, f는 float형)
+
+정답 :    전부
