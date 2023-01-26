@@ -1,19 +1,11 @@
 package kimwooyeong.solid.step4;
 
 public class Calculator {
-    public int calculate(String operator, int firstNumber, int secondNumber) {
-        int answer = 0;
-
-        if(operator.equals("+")){
-            answer = firstNumber + secondNumber;
-        }else if(operator.equals("-")){
-            answer = firstNumber - secondNumber;
-        }else if(operator.equals("*")){
-            answer = firstNumber * secondNumber;
-        }else if(operator.equals("/")){
-            answer = firstNumber / secondNumber;
-        }
-
-        return answer;
+    public int calculate(AbstractOperation operation, int firstNumber, int secondNumber){
+        if (operation.den(secondNumber))
+            return -99999;
+        return operation.operate(firstNumber, secondNumber);
     }
+
 }
+

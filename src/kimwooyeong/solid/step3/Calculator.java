@@ -1,19 +1,13 @@
 package kimwooyeong.solid.step3;
 
 public class Calculator {
-    public int calculate(String operator, int firstNumber, int secondNumber) {
-        int answer = 0;
+    // 연산 기능을 추상화된 부모클래스에 의존하여 처리한다.
+    public int calculate(AbstractOperation operation, int firstNumber, int secondNumber) {
+        // 나누기 연산 - 0처리 추가
+        if(operation.den(secondNumber)){
+                return -99999;
 
-        if(operator.equals("+")){
-            answer = firstNumber + secondNumber;
-        }else if(operator.equals("-")){
-            answer = firstNumber - secondNumber;
-        }else if(operator.equals("*")){
-            answer = firstNumber * secondNumber;
-        }else if(operator.equals("/")){
-            answer = firstNumber / secondNumber;
         }
-
-        return answer;
+        return operation.operate(firstNumber, secondNumber);
     }
 }
