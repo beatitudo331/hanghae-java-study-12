@@ -37,6 +37,7 @@ class Product {
 
 class Tv extends Product {
     Tv() {
+
     }
 
     public String toString() {
