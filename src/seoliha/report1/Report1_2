@@ -1,0 +1,10 @@
+2-7 번 문제
+
+정답 :
+System.out.println("1" + "2"); // 12
+System.out.println(true+""); //true
+System.out.println('A' + 'B'); // 131 (ASCII로 표시된 것. A=65, B=66)
+System.out.println('1' + 2); // 51 (1의 ASCII 코드 49 + 숫자 2)
+System.out.println('1' + '2'); // 99 (1의 ASCII 코드 49 + 2의 ASCII 50)
+System.out.println('J' +"ava"); // Java ("ava"가 String타입이므로 J도 String화 결합)
+System.out.println(true + null); //오류
