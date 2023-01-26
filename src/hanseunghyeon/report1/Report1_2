@@ -1,0 +1,17 @@
+//2-7. 다음 문장들의 출력 결과를 적으세요. 오류가 있는 문장의 경우, '오류' 라고 적으세요.
+
+System.out.println("1" + "2");
+System.out.println(true+"");
+System.out.println('A' + 'B');
+System.out.println('1' + 2);
+System.out.println('1' + '2');
+System.out.println('J' +"ava");
+System.out.println(true + null);
+
+//  12
+//  true
+//  65(A) + 66(B) = 131
+//  49('1') + 2 = 51
+//  49('1') + 50('2') = 99
+//  Java
+//  오류
