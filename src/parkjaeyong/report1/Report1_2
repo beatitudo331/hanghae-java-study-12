@@ -1,0 +1,21 @@
+2-7번 번 문제
+다음 문장들의 출력 결과를 적으세요. 오류가 있는 문장의 경우, '오류' 라고 적으세요.
+System.out.println("1" + "2");
+System.out.println(true+"");
+System.out.println('A' + 'B');
+System.out.println('1' + 2);
+System.out.println('1' + '2');
+System.out.println('J' +"ava");
+System.out.println(true + null);
+
+정답 :
+12
+true
+131
+51
+99
+Java
+'오류'
+
+
+
