@@ -1,0 +1,5 @@
+3-1번 번 문제
+
+정답 :
+        float f = (float)l;
+        i = (int)ch;

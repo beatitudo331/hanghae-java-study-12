@@ -2,6 +2,9 @@
 # Compiled class file
 *.class
 
+# .diea
+.diea
+
 # Log file
 *.log
 
@@ -62,7 +65,7 @@ hs_err_pid*
 # .idea/modules
 # *.iml
 # *.ipr
-
+hanghae-java-study-12.iml
 # CMake
 cmake-build-*/
 
@@ -150,3 +153,4 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+/.idea/
