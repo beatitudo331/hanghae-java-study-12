@@ -1,0 +1,9 @@
+//2-4. 다음 중 변수를 잘못 초기화 한 것은?
+byte b = 256;
+char c = '';
+char answer = 'no';
+float f = 3.14
+double d = 1.4e3f;
+
+정답 :
+double d = 1.4e3f;

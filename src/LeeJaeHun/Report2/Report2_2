@@ -1,0 +1,60 @@
+//3-2. 다음 연산의 결과와 그 이유를 적으세요.
+class Exercise3_2{
+   public static void main(String[] args){
+      int x = 2;
+      int y = 5;
+      char c = 'A'; // 'A'의 문자코드는 65
+
+      System.out.println(y >= 5 || x < 0 && x > 2);
+      System.out.println(y += 10 - x++);
+      System.out.println(x += 2);
+      System.out.println(!('A' <= c && c <= 'Z'));
+      System.out.println('C' - c);
+      System.out.println('5' - '0');
+      System.out.println(c + 1);
+      System.out.println(++c);
+      System.out.println(c++);
+      System.out.println(c);
+   }
+}
+정답:
+System.out.println(y >= 5 || x < 0 && x > 2);
+y >= 5 는 true  x < 0 && x > 2 는 false 이지만 ||논리연산에 의해 true
+출력 : true
+
+System.out.println(y += 10 - x++);
+y에 10을 더하고 x값을 뺀다 ++는 연산이 끝난 후 적용된다
+출력 : 13
+
+System.out.println(x += 2);
+x에 2를 더한다
+출력 : 5
+
+System.out.println(!('A' <= c && c <= 'Z'));
+'A' = 'A' 는 true A <= 'A' 도 true 이지만 !가 있으므로 false
+출력 : false
+
+System.out.println('C' - c);
+int형으로 변환 시 67 - 65이기때문에 2
+출력 : 2
+
+System.out.println('5' - '0');
+char 5 는 53 char 0은 48 이기때문에 53-48 =5
+출력 : 5
+
+System.out.println(c + 1);
+'A'는 65이기때문에 66
+출력 : 66
+
+System.out.println(++c);
+'A' 에 +1 한뒤 출력됨
+출력 : B
+
+System.out.println(c++);
+출력 후 +1 됨으로 출력값엔 영향없음
+출력 : B
+
+System.out.println(c);
+위에서 +1 되었으므로 C
+출력 : C
+
