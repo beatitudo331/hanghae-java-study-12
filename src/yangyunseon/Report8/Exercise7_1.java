@@ -16,7 +16,6 @@ class SutdaDeck {
     }
 
     void shuffle() {
-
         SutdaCard temp;
         for (int i = 0; i < CARD_NUM; i++) {
             int random = (int) (Math.random() * CARD_NUM);
