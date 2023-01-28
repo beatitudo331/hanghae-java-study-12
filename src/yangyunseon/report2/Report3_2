@@ -1,0 +1,32 @@
+//3-2. 다음 연산의 결과와 그 이유를 적으세요.
+class Exercise3_2{
+   public static void main(String[] args){
+      int x = 2;
+      int y = 5;
+      char c = 'A'; // 'A'의 문자코드는 65
+
+      System.out.println(y >= 5 || x < 0 && x > 2);
+      System.out.println(y += 10 - x++);
+      System.out.println(x += 2);
+      System.out.println(!('A' <= c && c <= 'Z'));
+      System.out.println('C' - c);
+      System.out.println('5' - '0');
+      System.out.println(c + 1);
+      System.out.println(++c);
+      System.out.println(c++);
+      System.out.println(c);
+   }
+}
+
+정답 :
+true // y가 5보다 크거나 같을 때 true인데 y=5이므로 true!
+13 // 증감 연산자 후위형은 값이 참조된 후에 증가되므로 x++은 일단은 그냥 2고 후에 증가됨
+    // 그래서 y(5) + 10 - 2 처럼 되어서 13
+5   //위에서 x가 3으로 바껴서 넘어왔기 때문에 2더하면 5
+false // 'A' <= c 와  c <= 'Z') 둘다 참이라서 'A' <= c && c <= 'Z' 가 참인데 앞에 !있으니까 반대로 false
+2 // C가 아스키 코드로 67이므로 67-65=2
+5 // 5-0 =0
+66 // c는 위에 선언한 'A' 변수고 A는 아스키코드로 65니까 65+1 =66
+B //전위형 연산자니까 먼저 1더해서 66되고 66은 아스키 코드로 B
+B //후위형 연산자니까 위에서 바뀐 B가 그대로 나오고 +1은 뒤로 넘어갑니다
+C //위에 문제에서 +1한게 넘어와서 67이 되고 67은 아스키코드로 C
