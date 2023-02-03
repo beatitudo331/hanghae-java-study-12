@@ -1,15 +1,14 @@
 package week3;
-class Transport {
-    int fare;
+class Transport{
+    int fare = 1500;
     int num;
     int oil = 100;
     int velocity = 0;
     boolean currentStatus = true; // true : 운행중, false : 차고지행
     final int MAX_OIL = 100;
     final int MIN_OIL = 0;
-    final int MAX_PASSENGER = 100;
+    final int MAX_PASSENGER = 30;
     final int MIN_PASSENGER = 0;
-
     public void setStatus() {
         if (currentStatus) {
             if (oil < 10) {
@@ -27,37 +26,35 @@ class Transport {
         this.velocity = velocity;
     }
 
-    public void setPassenger(){
+    public void setPassenger(int passenger){
     }
 
 
 static class Bus extends Transport {
     int passenger = 0;
-
+    int currentPassenger = 0;
     public Bus() {
         super();
     }
 
     @Override
     public void setStatus() {
-        if (currentStatus) {
-            currentStatus = false;
-        }
-        else {
-            currentStatus = true;
-        }
+        currentStatus = !currentStatus;
         if (oil < 10) {
-            System.out.println("주유가 필요합니다.");
             currentStatus = false;
         }
     }
     public void getStatus(){
         if (currentStatus){
-            System.out.println("운행중");
+            System.out.println("상태 : 운행중");
         }
         else{
-            System.out.println("차고지행");
-        };
+            System.out.println("상태 : 차고지행");
+        }
+        System.out.println("주유량 = " + this.oil);
+        if (oil < 10) {
+            System.out.println("주유가 필요합니다.");
+        }
     }
     @Override
     public void setVelocity(int velocity){
@@ -68,28 +65,39 @@ static class Bus extends Transport {
             System.out.println("지금 운행중이 아닙니다.");
         }
         else {
-            super.velocity = velocity;
+            this.velocity = velocity;
         }
     }
     public int getVelocity(){
         return velocity;
     }
     @Override
-    public void setPassenger(){
-        if (passenger >= MAX_PASSENGER){
-            System.out.println("탑승 가능한 최대 승객수를 초과하였습니다.");
-            return;
+    public void setPassenger(int passenger){
+        if (this.passenger + passenger >= MAX_PASSENGER){
+            System.out.println("최대 승객수를 초과했습니다.");
         }
         else if(!currentStatus){
             System.out.println("지금 운행중이 아닙니다.");
-            return;
         }
-        passenger ++;
+        else {
+            this.passenger += passenger;
+            currentPassenger = passenger;
+        }
     }
-    public int getPassenger(){
-        return passenger;
+    public void getPassenger(){
+        System.out.println("탑승 승객 수 = " + currentPassenger);
+        System.out.println("잔여 승객 수 = " + (MAX_PASSENGER - passenger));
+        System.out.println("요금 확인 = " + fare);
     }
-
+    public void setOil(int oil){
+        this.oil += oil;
+        if (this.oil< 10) {
+            setStatus();
+        }
+    }
+    public void getOil(){
+        System.out.println("주유량 = " + this.oil);
+    }
 
 
 }
@@ -97,14 +105,24 @@ static class Bus extends Transport {
 
 class SA1 {
     public static void main(String args[]) {
-        Transport.Bus bus = new Transport.Bus();
-        bus.setStatus(); // 차고지행으로 변경
-        bus.getStatus();
-        bus.setStatus(); // 운행중으로 변경
-        bus.getStatus();
-        bus.setVelocity(20);
-        System.out.println("Velocity:" + bus.getVelocity());
-        bus.setPassenger();
-        System.out.println("Passenger:" + bus.getPassenger());
+        Transport.Bus bus1 = new Transport.Bus();
+        bus1.num = 1;
+        Transport.Bus bus2 = new Transport.Bus();
+        bus2.num = 2;
+        System.out.println(bus1.num + "번 버스 객체 만들어짐!"); // 생성시 바로 고유넘버 부여하는것 만들어야함
+        System.out.println(bus2.num + "번 버스 객체 만들어짐!");
+        bus1.setPassenger(2);  // #1
+        bus1.getPassenger(); // #2
+        bus1.setOil(-50);  // #3
+        bus1.getOil(); // #4
+        bus1.setStatus();  // #5 차고지행으로 가면 승객 초기화
+        bus1.setOil(10);  // #6
+        bus1.getStatus();  // #7
+        bus1.setStatus();  // #8
+        bus1.setPassenger(45); // #9 #10
+        bus1.setPassenger(5); // #11
+        bus1.getPassenger(); // #12
+        bus1.setOil(-55); // #13
+        bus1.getStatus(); // #14 #15
     }
 }
