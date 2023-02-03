@@ -1,7 +1,7 @@
 package week3;
 class Transport{
-    int fare = 1500;
     int num;
+    int fare = 1500;
     int oil = 100;
     int velocity = 0;
     boolean currentStatus = true; // true : 운행중, false : 차고지행
@@ -9,6 +9,11 @@ class Transport{
     final int MIN_OIL = 0;
     final int MAX_PASSENGER = 30;
     final int MIN_PASSENGER = 0;
+
+    public Transport(int num) {
+        this.num = num;
+    }
+
     public void setStatus() {
         if (currentStatus) {
             if (oil < 10) {
@@ -33,8 +38,9 @@ class Transport{
 static class Bus extends Transport {
     int passenger = 0;
     int currentPassenger = 0;
-    public Bus() {
-        super();
+
+    public Bus(int num) {
+        super(num);
     }
 
     @Override
@@ -105,17 +111,15 @@ static class Bus extends Transport {
 
 class SA1 {
     public static void main(String args[]) {
-        Transport.Bus bus1 = new Transport.Bus();
-        bus1.num = 1;
-        Transport.Bus bus2 = new Transport.Bus();
-        bus2.num = 2;
-        System.out.println(bus1.num + "번 버스 객체 만들어짐!"); // 생성시 바로 고유넘버 부여하는것 만들어야함
+        Transport.Bus bus1 = new Transport.Bus(1);
+        Transport.Bus bus2 = new Transport.Bus(2);
+        System.out.println(bus1.num + "번 버스 객체 만들어짐!");
         System.out.println(bus2.num + "번 버스 객체 만들어짐!");
         bus1.setPassenger(2);  // #1
         bus1.getPassenger(); // #2
         bus1.setOil(-50);  // #3
         bus1.getOil(); // #4
-        bus1.setStatus();  // #5 차고지행으로 가면 승객 초기화
+        bus1.setStatus();  // #5
         bus1.setOil(10);  // #6
         bus1.getStatus();  // #7
         bus1.setStatus();  // #8
